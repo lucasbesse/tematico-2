@@ -15,7 +15,7 @@ def enviar_dados():
 
     # Verificar se todos os campos estão preenchidos
     if not nome_evento or not data_evento or not hora_evento or not nome_local or not rua or not numero:
-        messagebox.showwarning("Aviso", "Preencha todos os campos.")
+        messagebox.showwarning("Aviso!", "Preencha todos os campos.")
     else:
         # Exibir mensagem com os dados capturados
         messagebox.showinfo("Dados Enviados",
